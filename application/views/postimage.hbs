@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>Post Image</title>
+	</head>
+	<link rel="stylesheet" href="public/css/postImageStruct.css">
+	<body>
+		<div class = "container">
+		<center>
+			<h3 id = "title">Post Image</h3>
+			<form action="" method="">
+				<table>
+					<tr>
+						<td id="tit_im">Title Image</td>
+						<td>
+						<input type="text" id="title" name="title" required>
+						</td>
+					</tr>
+					<tr>
+						<td id = "desc">Description</td>
+						<td>
+						<input type="text" id="desc" name="desc" required>
+						</td>
+					</tr>
+					<tr>
+						<td id = "up_here">Upload Here</td>
+						<td>
+							<form action="upload.php" method="post" enctype="multipart/form-data">
+							<input type="file" name="fileToUpload" id="fileToUpload">
+							</form>
+						</td>
+					</tr>
+					<tr>
+						<td id = "accept">I accept Terms of Service</td>
+						<td>
+							<input type="radio" name="TOS" required>
+							<a href="">TOS</a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<input type="submit" name="submit" value="submit">
+						</td>
+					</tr>
+					
+					
+					
+				</table>
+			</form>
+		</center>
+	</div>
+	</body>
+</html>

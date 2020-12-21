@@ -1,0 +1,20 @@
+
+#title{
+    font-style: italic;
+background: linear-gradient(to left, rgb(255, 0, 0), rgb(255, 0, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#tit_im{
+    font-family: impact;
+}
+#desc{
+    font-family: impact;
+}
+#up_here{
+    font-family: impact;
+}
+#accept{
+    font-family: impact;
+}

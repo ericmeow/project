@@ -1,0 +1,14 @@
+
+#title {
+font-family: Georgia;
+background: linear-gradient(to left, rgb(255, 0, 0), rgb(255, 0, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#user{
+    font-family: Impact;
+}
+#pass{
+    font-family: Impact;
+    
+}

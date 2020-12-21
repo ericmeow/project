@@ -1,0 +1,46 @@
+
+#postTitle{
+    font-family: impact;
+    background: linear-gradient(to left, lightsalmon, white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+#titleName{
+    font-family: algerian;
+    background: linear-gradient(to left, lightsalmon, white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#postAuthor{
+    font-family: 'bauhaus 93';
+    background: linear-gradient(to left, rgb(236, 253, 1), white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#authorName{
+    font-family: 'bauhaus 93';
+    background: linear-gradient(to left, rgb(22, 255, 1), white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+#postTime{
+    font-family: 'bauhaus 93';
+    background: linear-gradient(to left, rgb(1, 38, 248), white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#dateTime{
+    font-family: 'bauhaus 93';
+    background: linear-gradient(to left, rgb(253, 4, 191), white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#postImage{
+    font-family: 'bauhaus 93';
+    background: linear-gradient(to left, rgb(250, 2, 2), white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

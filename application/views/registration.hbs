@@ -1,0 +1,57 @@
+<link rel="stylesheet" href="public/css/registrationStruct.css">
+<script src="../public/js/main.js" defer></script>
+
+<div class="container">
+	<div class="header">
+		<h2>Create Account</h2>
+	</div>
+	<form id="form" class="form" method = "POST" action="/users/register" enctype="application/x-www-form-urlencoded">
+		<div class="form-control">
+			<label id="lblusername" for="username">Username</label>
+			<input id="username" type= "text" placeholder="Username" name="username" required>
+			<i class="fas fa-check-circle"></i>
+			<i class="fas fa-exclamation-circle"></i>
+			<small>Error message</small>
+		</div>
+		<div class="form-control">
+			<label for="email">Email</label>
+			<input type="email" placeholder="i.e blah@mail.com" id="email" required name="email"/>
+			<i class="fas fa-check-circle"></i>
+			<i class="fas fa-exclamation-circle"></i>
+			<small>Error message</small>
+		</div>
+		<div class="form-control">
+			<label for="password">Password</label>
+			<input type="password" placeholder="Password" id="password"required name="password"/>
+			<i class="fas fa-check-circle"></i>
+			<i class="fas fa-exclamation-circle"></i>
+			<small>Error message</small>
+		
+		<div class="form-control">
+			<label for="password2">Password check</label>
+			<input type="password" placeholder="Password Confirm" id="password2"required name="password2"/>
+			<i class="fas fa-check-circle"></i>
+			<i class="fas fa-exclamation-circle"></i>
+			<small>Error message</small>
+		</div>
+	</div>
+	<tr>
+<td id = "13">I am 13+ years old</td>
+<td>
+	<input type="radio" name="13" required>
+</td>
+</tr>
+<tr>
+<td id = "accept">I accept Terms of Service</td>
+<br><td>
+	<input type="radio" name="TOS" required>
+	<a href="">TOS</a>
+</td>
+</tr>
+<tr>
+
+</tr></br>
+		
+		<button>Submit</button>
+	</form>
+</div>
